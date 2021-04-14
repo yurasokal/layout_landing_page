@@ -1,0 +1,12 @@
+.partners {
+  display: flex;
+
+  &__pictures {
+    justify-content: space-between;
+  }
+  
+  &__picture {
+    margin: 30px;
+    // width: calc((100% - 150px) / 6);
+  }
+}
