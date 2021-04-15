@@ -41,4 +41,33 @@
       width: calc(100% - 2 * #{10px});
     }
   }
+
+  &__linkFooter {
+    color: #454646;
+    position: relative;
+    margin: 0 40px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(148, 147, 147);
+      transition: color 0.5s;
+    }
+
+    &::after {
+      display: block;
+      position: absolute;
+      bottom: -25px;
+      left: 10px;
+      width: 0;
+      height: 2px;
+      content: "";
+      background-color: #5d6263;
+      transition: width 0.3s ease-out;
+    }
+
+    &:hover::after {
+      width: calc(100% - 2 * #{10px});
+    }
+  }
 }

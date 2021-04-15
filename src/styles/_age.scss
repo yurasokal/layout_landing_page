@@ -1,4 +1,5 @@
 .age {
+  display: block;
   background-image: url("../images/age-background.png");
   // background-image: url("../images/VectorSmartObject.svg");
   background-size: cover;
@@ -17,9 +18,7 @@
   }
 
   &__photo {
-    // position: absolute;
-    // left: 0;
-    // top: 0;
-    padding: 55px;
+    height: auto;
+    width: 100%;
   }
 }
