@@ -1,23 +1,14 @@
-// .button {
-//   display: block;
-//   padding: 20px;
+.button {
+  display: block;
+  padding: 20px;
 
-//   font-size: 14px;
-//   line-height: 18.2px;
-//   text-align: center;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   cursor: pointer;
-//   color: purple;
+  font-size: 20px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
 
-//   border: 1px solid transparent;
-//   background: red;
-
-//   transition: background-color 1s;
-
-//   &:hover {
-//     border: 1px solid yellow;
-//     color: black;
-//     background-color: gray;
-//   }
-// }
+  transition: background-color 1s;
+}
